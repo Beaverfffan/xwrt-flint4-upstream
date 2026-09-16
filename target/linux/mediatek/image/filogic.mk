@@ -2127,7 +2127,7 @@ define Device/glinet_gl-be14000-common
   DEVICE_DTS_DIR := ../dts
   DEVICE_DTS_LOADADDR := 0x45f00000
   KERNEL_LOADADDR := 0x46000000
-  DEVICE_PACKAGES := kmod-mt7996-233-firmware kmod-hwmon-pwmfan kmod-usb3 \
+  DEVICE_PACKAGES := kmod-dsa-yt92xx kmod-mt7996-233-firmware kmod-hwmon-pwmfan kmod-usb3 \
 	kmod-backlight-pwm kmod-drm-panel-mipi-dbi glinet-panel-firmware \
 	kmod-input-touchscreen-cst353x kmod-input-evdev \
 	mt7988-wo-firmware rtl8261c-firmware e2fsprogs f2fsck mkf2fs
